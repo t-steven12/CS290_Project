@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One Rep Max Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="post.js"></script>
+</head>
+<body>
+    <ul>
+        <li><a href="calculator.html">1RPM Calculator</a></li>
+        <li><a href="tenets_of_fitness.html">Tenets of Fitness</a></li>
+        <li><a href="crucifix_curl.html">How to Crucifix Curl</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+    <img src="strict_curl.JPG"><br>
+    <text id="curlCaption">Photo by Steven Tieu</text>
+    <div class="calculator-container">
+        <h1>One Rep Maximum Calculator</h1>
+        <form action="/" method="post" class="userInfo">
+            <fieldset>
+                <h2>Enter your info!</h2>
+                <label for="name">Your name: </label>
+                <input type="text" name="name" id="name"><br>
+                <label for="weight">Weight lifted(lbs): </label>
+                <input type="number" name="weight" id="weight"><br>
+                <label for="reps">Number of repetitions: </label>
+                <input type="number" name="reps" id="reps"><br><br>
+                <input type="submit" name="submitInfo" id="submitInfo" value="Done!">
+            </fieldset>
+        </form><br><br>
+        <text style="font-size: x-large">Hi, <text style="font-size: x-large" id="yourName"></text></text><br><br>
+        <text id="oneRepMaxLabel">Your 1RM: </text>
+        <text id="oneRepMax"></text>
+    </div><br>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Approx. Maximum Weight(lbs)</th>
+                    <th>Amount of Repetitions</th>
+                    <th>Percentage of Max</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="hundredPercent"></td>
+                    <td>1</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td id="ninetyPercent"></td>
+                    <td>4</td>
+                    <td>90%</td>
+                </tr>
+                <tr>
+                    <td id="eightyPercent"></td>
+                    <td>7</td>
+                    <td>80%</td>
+                </tr>
+                <tr>
+                    <td id="seventyPercent"></td>
+                    <td>10</td>
+                    <td>70%</td>
+                </tr>
+                <tr>
+                    <td id="sixtyPercent"></td>
+                    <td>13</td>
+                    <td>60%</td>
+                </tr>
+                <tr>
+                    <td id="fiftyPercent"></td>
+                    <td>16</td>
+                    <td>50%</td>
+                </tr>
+                <tr>
+                    <td id="fortyPercent"></td>
+                    <td>19</td>
+                    <td>40%</td>
+                </tr>
+                <tr>
+                    <td id="thirtyPercent"></td>
+                    <td>22</td>
+                    <td>30%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

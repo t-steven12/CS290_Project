@@ -1,0 +1,68 @@
+.calculator-container {
+    position: relative;
+    left: 67%;
+    bottom: 800px;
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: beige;
+}
+
+ul {
+    background-color: darkolivegreen;
+}
+
+li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+a {
+    color: yellow;
+    padding: 20px 20px;
+}
+
+a:hover {
+    background-color: darkgreen;
+}
+
+
+#oneRepMax {
+    font-size: x-large;
+}
+
+#oneRepMaxLabel {
+    font-size: x-large;
+}
+.userInfo {
+    padding-left: 45px;
+}
+
+fieldset {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+.table-container {
+    position: relative;
+    left: 67%;
+    bottom: 700px;
+    height: 200px;
+    width: 400px;
+    overflow: scroll;
+}
+
+table {
+    width: 700px;
+}
+
+table, th, td {
+    border: solid;
+}
+
+td {
+    text-align: center;
+}
